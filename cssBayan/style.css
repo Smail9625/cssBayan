@@ -105,3 +105,23 @@ h1,h2,h3,h4,h5,h6 {
 .accordion__input:checked ~ .accordion__menu {
     background-image: url("images/icons/minus.svg");
 }
+
+@media (max-width: 768px) {
+    .accordion__title{
+        font-size: 0.7rem;
+    }
+
+    .accordion__menu{
+        background-size: 12px;
+    }
+}
+
+@media (max-width: 400px) {
+    .accordion__title{
+        font-size: 0.6rem;
+    }
+
+    .accordion__menu{
+        background-size: 10px;
+    }
+}
